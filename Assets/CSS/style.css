@@ -1,0 +1,238 @@
+
+/* INDEX.HTML */
+
+/* header */
+.container {
+    background-color:#ffffff;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+    
+}
+.NameContainer {
+    color:white;
+    float:left;
+    background-color:#4aaaa5;
+    margin-left:15%;
+}
+nav {
+    float:right;
+    line-height:70px;
+    margin-right:15%;
+    
+
+    
+}
+nav li{
+    display:inline-block;
+    padding: 5px 20px;
+    margin-right:10px;
+    color:gray;
+    font-size:20px;
+    
+    
+}
+a {
+    text-decoration: none;
+    color:lightgray;
+}
+/*Body of Page*/
+
+body {
+    margin:0px;
+    padding:0px;
+    color:black;
+    background-image: url('/users/mike/Basic-Portfolio/Assets/images/pattern.png');
+    overflow: hidden;
+}
+.content {
+    background-color:white;
+    margin-left: 15%;
+    margin-right:15%;
+    margin-top:5%;
+    overflow: hidden;
+    
+}
+.img {
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+.p {
+    float:right;
+    
+}
+h2 {
+    border-bottom: 1px solid black;
+    overflow: hidden;
+}
+/*footer*/
+footer{
+    position:fixed;
+    display:block;
+    background-color:gray;
+    text-align:center;
+    color:white;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:5%;
+    border-top-color:teal;
+    border-top-style: solid;
+    border-top-width: 10px;
+
+    
+    
+}
+
+/*CONTACT.HTML/
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container1 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/*PORTFOLIO*/
+
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+  
+}
+
+.img-holder {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+}
+
+.text {
+    float: left;
+    background-color: #4aaaa5;
+    margin-top: -40px;
+    width: 150px;
+    position: absolute;
+    text-align: center;
+}
+
+
+/* These rules take effect when the browser's width
+  is either 768px or less. */
+
+@media screen and (max-width: 640px) {
+   nav {
+        width:87%;
+        line-height:70px;
+        background-color: white;
+        text-align: end;
+   }
+   .NameContainer {
+    color:white;
+    background-color:#4aaaa5;
+    width: 100%;
+    margin-left:0%;
+    text-align: center;
+    position:static;
+   
+    
+}
+.container {
+    background-color:white;
+    border-bottom: 1px solid black;
+    overflow: scroll;
+    display: block;
+    
+  }
+  .content {
+    background-color:white;
+    margin-left: 15%;
+    margin-right:15%;
+    margin-top:5%;
+    overflow: scroll;
+    max-width: 500px;
+    
+   
+
+    
+    
+}
+.img {
+    float: top;
+    padding: 0 20px 20px 0;
+    height: 200%;
+    width: 200%;
+    display:block;
+}
+
+.p {
+    text-align: end;
+    
+}
+.img-holder {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.text {
+    float: left;
+    background-color: #4aaaa5;
+    margin-top: -40px;
+    width: 70.3%;
+    position: absolute;
+    text-align: center;
+    overflow: scroll;
+}
+
+.container1 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    height:80%;
+    overflow: scroll;
+
+}
+body {
+    overflow: scroll;
+}
+}
+@media screen and (max-width: 768px) {
+    
+ }
+ @media screen and (max-width: 768px) {
+    
+}
